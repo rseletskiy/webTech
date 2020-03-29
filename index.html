@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>I am a freelancer</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta name="description" content="I am a freelancer">
+	<meta name="keywords" content="myname, skills, css, html, js">
+	<meta property="og:title" content="I am a freelancer">
+	<meta property="og:description" content="lorem dafljasdf asdfsa">
+	<meta property="og:type" content="article">
+	<meta property="og:image" content="#">
+	<meta property="og:site_name" content="MYNAME">
+
+	<link rel="icon" href="img/icon.png" type="image/x-icon">
+	<link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&display=swap&subset=cyrillic"
+		rel="stylesheet">
+
+	<link rel="stylesheet" href="./css/fonts.css">
+	<link rel="stylesheet" href="./css/main.css">
+	<link rel="stylesheet" href="./css/media.css">
+</head>
+
+<body>
+
+	<div id="progressbar"></div>
+	<div id="scrollPath"></div>
+
+	<!-- preloader -->
+
+	<div class="volum-wrapper">
+		<div class="volum-mess">
+			<p>please turn on the sound</p>
+			<button class="volum-ok">Ok</button>
+		</div>
+	</div>
+
+	<div class="preloader-wrapper">
+		<div class="preloader">
+			<img src="./img/bitdance.gif" class="woot-dance" width="328" height="272" alt="8-bit dancing guy">
+			<div class="floor"></div>
+			<audio src="./img/music.mp3" class="sound" autoplay></audio>
+
+			<div class="preload-mess-box">
+				<div id="preload-mess">
+					Loading...
+				</div>
+				<button class="enter-site">Enter</button>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="stiky-header">
+		<header class="header" id="header">
+			<div class="container d-flex align-items-center">
+				<a href="#" class="logo d-flex align-items-center">
+					<div class="logo__icon">
+						<i class="fa fa-plug"></i>
+					</div>
+					<div class="logo__title">
+						<span>
+							My frontend
+						</span>
+						<span>
+							School
+						</span>
+					</div>
+				</a>
+				<div class="in-mobile">
+					<nav>
+						<ul class="menu d-flex">
+							<li class="menu__item">
+								<a href="#know" class="menu__link">
+									Do you know
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="#success" class="menu__link">
+									Why
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="#circs" class="menu__link">
+									Whom
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="#reserve" class="menu__link">
+									Registration
+								</a>
+
+								<ul class="submenu">
+									<li><a href="#" class="menu__link">Form</a></li>
+									<li><a href="#" class="menu__link">Registered users</a></li>
+									<li><a href="#" class="menu__link">When?</a></li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+					<div class="button-con">
+						<label for='cb1'>
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+								version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35"
+								style="enable-background:new 0 0 35 35;" xml:space="preserve">
+								<g id="Sun">
+									<g>
+										<path style="fill-rule:evenodd;clip-rule:evenodd;"
+											d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z" />
+									</g>
+								</g>
+							</svg>
+						</label>
+						<input class='toggle' id='cb1' type='checkbox'>
+						<label class='toggle-button' for='cb1'></label>
+						<label for='cb1'>
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+								version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100"
+								enable-background="new 0 0 100 100" xml:space="preserve">
+								<path
+									d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z" />
+							</svg>
+						</label>
+					</div>
+					<a href="tel:+380955571992" class="phone">
+						<i class="fa fa-phone"></i>
+						+380 95 5571 992
+					</a>
+				</div>
+				<div class="hum">
+					<span></span>
+				</div>
+			</div>
+		</header>
+	</div>
+
+	<main>
+		<section class="workshop" id="workshop">
+			<div class="container">
+				<div class="lesson d-flex">
+					<div class="offer d-flex f-dir-col">
+						<div class="offer__text d-flex align-items-center">
+							<i class="fa fa-graduation-cap"></i>
+							Online master class
+						</div>
+						<h1 class="offer__title">
+							I'm a professional web developer
+						</h1>
+						<div class="offer__time">
+							April 9 at 18:00
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="know" id="know">
+			<div class="container">
+				<div class="snnipet d-flex">
+					<div class="author card">
+						<h3 class="author__name">
+							Roman Seletskiy
+						</h3>
+						<div class="author__details">
+							<p class="author__line">
+								Leading master class
+							</p>
+							<p class="author__line">
+								Frontend developer
+							</p>
+						</div>
+						<div class="author__digits d-flex">
+							<div class="author__elem">
+								<div class="author__icon">
+									100+
+								</div>
+								<div class="author__text author__text_long">
+									Created sites
+								</div>
+							</div>
+							<div class="author__elem">
+								<div class="author__icon">
+									2
+								</div>
+								<div class="author__text author__text_short">
+									Years of experience
+								</div>
+							</div>
+						</div>
+						<a href="#" class="author__more link">
+							Learn more
+						</a>
+					</div>
+					<div class="question">
+						<h2 class="question__title">
+							Do you know?
+						</h2>
+						<p class="question__text">
+							According to statistics, the average freelancer earns about 30 thousand rubles a month, most
+							often, much less than this figure.
+						</p>
+					</div>
+				</div>
+				<div class="snnipet d-flex">
+					<div class="question second-question">
+						<h2 class="question__title">
+							Hmm ...
+						</h2>
+						<p class="question__text">
+							Why so little? That is not enough for freelancers to "break through the ceiling" at least
+							...
+						</p>
+					</div>
+					<div class="amount card d-flex">
+						<div class="amount__money">
+							$1000
+							<span>
+								per month?
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="success" id="success">
+			<div class="container">
+				<h2 class="success__title">
+					I'll show you,<br> how do i manage ...
+				</h2>
+				<ul class="chance d-flex justify-content-between">
+					<li class="chance__item d-flex">
+						<div class="chance__number">
+							1
+						</div>
+						<div class="chance__value">
+							<h4 class="chance__title">
+								Making thousands of dollars
+							</h4>
+							<p class="chance__text">
+								Only with web layout and site development skills
+							</p>
+						</div>
+					</li>
+					<li class="chance__item d-flex ">
+						<div class="chance__number">
+							2
+						</div>
+						<div class="chance__value">
+							<h4 class="chance__title">
+								Work<br> on travel
+							</h4>
+							<p class="chance__text chance__text_short">
+								No return home using a laptop and all the freelancing capabilities
+							</p>
+						</div>
+					</li>
+					<li class="chance__item d-flex">
+						<div class="chance__number">
+							3
+						</div>
+						<div class="chance__value">
+							<h4 class="chance__title">
+								To be one step ahead of competitors
+							</h4>
+							<p class="chance__text">
+								Using proven strategies for developing, communicating and working with clients
+							</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section class="circs" id="circs">
+			<div class="container">
+				<h2 class="circs__title">
+					If you are
+				</h2>
+				<div class="reason d-flex justify-content-between">
+					<div class="reason__item d-flex card">
+						<i class="reason__icon fa fa-flag"></i>
+						<h4 class="reason__title reason__title_short">
+							Beginner Frontend Developer
+						</h4>
+					</div>
+					<div class="reason__item d-flex card">
+						<i class=" reason__icon fas fa-money-bill-alt"></i>
+						<h4 class="reason__title reason__title_long">
+							Not happy with the freelance earnings
+						</h4>
+					</div>
+					<div class="reason__item d-flex card">
+						<i class="reason__icon fas fa-meh-rolling-eyes"></i>
+						<h4 class="reason__title reason__title_long">
+							On freelancing &gt; 2 years, but your income &lt; $1000
+						</h4>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="reserve" id="reserve">
+			<div class="container d-flex align-items-center">
+				<div class="sen-cont">
+					<div class="sentence">
+						<div class="sentence__online">
+							<i class="fa fa-graduation-cap"></i>
+							Online master class
+						</div>
+						<h2 class="sentence__slogan">
+							Don't lose a unique opportunity. Book your participation today!
+						</h2>
+						<div class="sentence__event d-flex">
+							<span class="sentence__date">
+								<i class="fas fa-clock"></i>
+								April 9 at 18:00
+							</span>
+							<span class="sentence__places">
+								<i class="fas fa-users"></i>
+								Only 40 seats
+							</span>
+						</div>
+					</div>
+					<form action="#" class="form" id="form">
+						<h3 class="form__title">
+							Book your participation
+						</h3>
+						<p class="form__text">
+							To become proficient in HTML, CSS and JS, and to do WOW
+						</p>
+						<div class="form__connect">
+							<input type="text" name="name" placeholder="Name" id="userName">
+							<input type="text" name="name" placeholder="Surname" id="userSurname">
+							<input type="text" name="email" placeholder="E-mail" id="userEmail">
+							<input type="tel" name="tel" id="userPhone" placeholder="Phone">
+							<div class="radio-wrapper">
+								<div class="radio-item">
+									<input type="radio" name="gender" id="male" value="male" checked>
+									<label for="male">Male</label>
+								</div>
+								<div class="radio-item">
+									<input type="radio" name="gender" value="female" id="female">
+									<label for="female">Female</label>
+								</div>
+							</div>
+							<div id="error"></div>
+							<button type="submit" id="formButton" class="form__submit">
+								Leave a request
+							</button>
+						</div>
+						<p class="form__save">
+							Your data is !protected
+						</p>
+					</form>
+				</div>
+			</div>
+		</section>
+		<section class="users-table-section">
+			<div class="container">
+				<h3 class="users-table__title">
+					Already registered users
+				</h3>
+
+				<div class="table-wrapper">
+					<table class="users-table">
+						<tr>
+							<th>Photo</th>
+							<th colspan="2">Name</th>
+							<th>E-mail</th>
+						</tr>
+						<tr>
+							<td>
+								<div class="user-photo">
+									<img src="./img/user1.jpg" alt="Ivan">
+								</div>
+							</td>
+							<td>Ivan</td>
+							<td>Petrenko</td>
+							<td>petrenko@gmail.com</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="user-photo">
+									<img src="./img/user3.jpg" alt="Ne Ivan">
+								</div>
+							</td>
+							<td>Ne Ivan</td>
+							<td>Ne Petrenko</td>
+							<td>nepetrenko@gmail.com</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="user-photo">
+									<img src="./img/user2.jpg" alt="Igor">
+								</div>
+							</td>
+							<td>Igor</td>
+							<td>Igorko</td>
+							<td>Igorko@gmail.com</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="user-photo">
+									<img src="./img/user4.jpg" alt="Ne Igor">
+								</div>
+							</td>
+							<td>Ne Igor</td>
+							<td>Ne Igorko</td>
+							<td>Neigorko@gmail.com</td>
+						</tr>
+					</table>
+				</div>
+
+			</div>
+		</section>
+	</main>
+	<footer class="footer " id="footer">
+		<div class="container d-flex align-items-center">
+			<a href="#" class="logo d-flex align-items-center">
+				<div class="logo__icon">
+					<i class="fa fa-plug"></i>
+				</div>
+				<div class="logo__title">
+					<span>
+						My frontend
+					</span>
+					<span>
+						School
+					</span>
+				</div>
+			</a>
+			<p class="rights">
+				All rights reserved
+			</p>
+			<a href="tel:+380955571992" class="phone phone_footer">
+				<i class="fa fa-phone"></i>
+				<span>
+					+380 95 5571 992
+				</span>
+			</a>
+		</div>
+	</footer>
+	<script src="https://kit.fontawesome.com/0bb9aaebbe.js"></script>
+	<script src="./js/main.js"></script>
+</body>
+
+</html>
